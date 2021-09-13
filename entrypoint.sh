@@ -3,4 +3,4 @@
 set -e
 set -o pipefail
 
-python /run/src/myfile.py
+python /run/src/main.py
