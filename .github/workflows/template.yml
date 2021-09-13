@@ -1,0 +1,19 @@
+
+on: workflow_dispatch
+
+name: Generate file from template
+
+jobs:
+  test:
+    name: Generate file
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@v2
+      - name: Generate file
+        uses: jmgilman/actions-template-file@v1
+        with:
+          template: test.tmp
+          parameters:
+            test: val1
+            test: val2

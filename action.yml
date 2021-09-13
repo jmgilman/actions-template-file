@@ -1,24 +1,18 @@
 name: Generate Template File
 description: A Github Action for generating files from templates
 inputs:
-  opt1:
-    description: Description for opt1
-    required: false
-    default: opt
-  opt2:
-    description: Description for opt2
-    required: false
-    default: opt
-  opt3:
-    description: Description for opt3
+  template:
+    description: Template file to use
+    required: true
+  parameters:
+    description: Parameters to use when generating from the template
     required: true
 runs:
   using: docker
   image: Dockerfile
   args:
-    - ${{ inputs.opt1 }}
-    - ${{ inputs.opt2 }}
-    - ${{ inputs.opt3 }}
+    - ${{ inputs.template }}
+    - ${{ inputs.parameters }}
 branding:
   icon: align-center
   color: green
