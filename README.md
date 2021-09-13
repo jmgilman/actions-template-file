@@ -1,16 +1,16 @@
-# repo-name
+# actions-template-file
 
-> A short description of the project
+> A Github Action for generating files from templates
 
-A longer description of the project.
+TODO
 
 ## Usage
 
-Usage with example.
+TODO
 
 ## Options
 
-All configurable options available.
+TODO
 
 | Key        | Required | Default      | Description |
 | ---------- | -------- | ------------ | ---------------------------------------------------- |

@@ -1,5 +1,5 @@
-name: Project name
-description: Project description
+name: Generate Template File
+description: A Github Action for generating files from templates
 inputs:
   opt1:
     description: Description for opt1
