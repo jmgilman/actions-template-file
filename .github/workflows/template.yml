@@ -17,5 +17,5 @@ jobs:
           parameters: |
             {
               "param1": "value1",
-              "param2": 2,
+              "param2": 2
             }
