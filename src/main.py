@@ -1,4 +1,5 @@
 import click
+import json
 import os
 
 
@@ -15,6 +16,8 @@ import os
 )
 def main(template: str, parameters: str):
     print(template)
+
+    parameters = json.loads(parameters)
     print(parameters)
     pass
 
